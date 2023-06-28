@@ -1,0 +1,46 @@
+{
+    "name": "ikoncoders/framework",
+    "description": "An Ikonizer PHP framework",
+    "keywords": ["framework", "php", "ikonizer"],
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
+    "readme": "",
+    "time": "",
+    "authors": [
+        {
+            "name": "Ikoncoders",
+            "email": "ikoncoders@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ikoncoders\\Framework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ikoncoders\\Framework\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3",
+        "phpunit/phpunit": "^10.0"
+    },
+    "require": {
+        "php": "7.4.12|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "nikic/fast-route": "dev-master",
+        "psr/container": "^2.0",
+        "league/container": "^4.0.0",
+        "symfony/dotenv": "^6.0",
+        "twig/twig": "^3.0",
+        "doctrine/dbal": "^3.6",
+        "psr/event-dispatcher": "^1.0"
+    }
+}
