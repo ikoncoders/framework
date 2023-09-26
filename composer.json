@@ -1,0 +1,19 @@
+{
+    "name": "ikoncoders/framework",
+    "description": "Caremi PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ikoncoders\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "caremi",
+            "email": "caremi.ltd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
