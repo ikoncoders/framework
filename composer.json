@@ -6,7 +6,12 @@
     "autoload": {
         "psr-4": {
             "Caremi\\": "src"
-        }
+        },
+        "files": [
+            "src/Support/helpers.php",
+            "src/Support/functions.php"
+             
+        ]
     },
     "authors": [
         {
